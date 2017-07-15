@@ -47,6 +47,7 @@ body {
   z-index: 10;
 }
 
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
@@ -58,6 +59,9 @@ body {
   left: 0;
   min-width: 100%;
   height: 500px;
+}
+.carousel-inner > .item > .container > .carousel-caption > img {
+  max-height: 170px;
 }
 
 
@@ -121,7 +125,6 @@ body {
     font-size: 21px;
     line-height: 1.4;
   }
-
   .featurette-heading {
     font-size: 50px;
   }
